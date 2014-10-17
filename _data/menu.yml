@@ -1,0 +1,64 @@
+- text: Home
+  url: /
+- text: Git
+  url: /git/
+  subitems:
+    - text: Amend
+      url: /git/amend/
+    - text: Commit
+      url: /git/commit/
+    - text: Update
+      url: /git/update/
+- text: Kettle
+  url: /kettle/
+  subitems:
+    - text: Broken
+      url: /kettle/broken/
+- text: Linux
+  url: /linux/
+  subitems:
+    - text: Apache HTTPd
+      url: /linux/apache-httpd/
+    - text: Bash Script 
+      url: /linux/bash-script/
+    - text: Bash Shell
+      url: /linux/bash-shell/
+    - text: CLI
+      url: /linux/cli/
+      subitems:
+        - text: Commands
+          url: /linux/cli/commands
+          subitems:
+            - text: awk 
+              url: /linux/cli/commands/awk/
+            - text: du
+              url: /linux/cli/commands/du/
+            - text: rpm
+              url: /linux/cli/commands/rpm/
+            - text: sed
+              url: /linux/cli/commands/sed/
+            - text: yum
+              url: /linux/cli/commands/yum/
+    - text: Crontab
+      url: /linux/crontab/
+    - text: LVM
+      url: /linux/lvm/
+    - text: Red Hat Cluster
+      url: /linux/redhat-cluster
+    - text: SELinux
+      url: /linux/selinux/
+    - text: SSHd
+      url: /linux/sshd/
+- text: MySQL
+  url: /mysql/
+  subitems:
+    - text: Binlogs 
+      url: /mysql/binlogs/
+    - text: mysqlbinlog
+      url: /mysql/mysqlbinlog/
+    - text: mysqldump
+      url: /mysql/mysqldump/
+    - text: Slave
+      url: /mysql/slave/
+    - text: Users
+      url: /mysql/users/

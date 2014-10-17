@@ -4,6 +4,8 @@ layout: page
 permalink: mysql/users/
 ---
 
+= User creation
+
 Create the user [USER] with password [PASSWORD] reachable from [IP_RANGE] with replication permissions:
 
 [source, mysql]
