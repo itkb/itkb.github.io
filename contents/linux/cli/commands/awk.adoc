@@ -1,0 +1,12 @@
+---
+title: awk
+layout: page
+permalink: linux/cli/commands/awk/
+---
+
+= Examples
+
+Show date:
+
+[source, bash]
+awk -v date="$(date +"%d-%m-%Y %H:%M:%S")" '{print date}'

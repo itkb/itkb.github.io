@@ -1,0 +1,16 @@
+---
+title: SSHd
+layout: page
+permalink: linux/sshd/
+---
+
+= Check config file
+To be sure that that issued config file is correct, please run
+
+[source, bash]
+/usr/bin/sshd -T
+
+= Speed up login
+
+[source, bash]
+GSSAPIAuthentication yes -> GSSAPIAuthentication no

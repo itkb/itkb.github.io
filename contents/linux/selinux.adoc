@@ -1,0 +1,27 @@
+---
+title: SELinux
+layout: page
+permalink: linux/selinux/
+---
+
+= Status, start and stop
+Get selinux status
+
+[source, bash]
+getenforce
+
+Enable selinux
+
+[source, bash]
+setenforce true
+
+Disable selinux
+
+[source, bash]
+setenforce false
+
+= Reset permissions
+Restore permissions of files in a folder
+
+[source, bash]
+restorecon -Rv FOLDER
