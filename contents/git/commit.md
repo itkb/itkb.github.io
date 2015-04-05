@@ -6,10 +6,12 @@ permalink: git/commit/
 
 To commit all changes
 
-[source, bash]
+``` bash
 git commit -am "COMMENT"
+```
 
 This command does a local commit. To push to remote servers, use:
 
-[source, bash]
+``` bash
 git push
+```
