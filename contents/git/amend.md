@@ -4,5 +4,6 @@ layout: page
 permalink: git/amend/
 ---
 
-[source, bash]
+``` bash
 git commit --amend --date="$(date -R)"
+```
