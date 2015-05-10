@@ -4,19 +4,22 @@ layout: page
 permalink: mysql/users/
 ---
 
-= User creation
+# User creation
 
 Create the user [USER] with password [PASSWORD] reachable from [IP_RANGE] with replication permissions:
 
-[source, mysql]
+```mysql
 GRANT REPLICATION SLAVE ON *.*  TO '[USER]'@'[IP_RANGE]' IDENTIFIED BY '[PASSWORD]';
+```
 
 Create the user [USER] with password [PASSWORD] reachable from [IP_RANGE] with root permissions:
 
-[source, mysql]
+```mysql
 GRANT ALL ON *.*  TO '[USER]'@'[IP_RANGE]' IDENTIFIED BY '[PASSWORD]';
+```
 
-= Change password
+# Change password
 
-[source, mysql]
+```mysql
 SET PASSWORD FOR '[USER]'@'[IP_RANGE]' = PASSWORD('[PASSWORD]');
+```

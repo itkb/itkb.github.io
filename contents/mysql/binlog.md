@@ -6,5 +6,6 @@ permalink: mysql/binlogs/
 
 Change live the logs expire:
 
-[source, mysql]
+```mysql
 SET GLOBAL expire_logs_days = X;
+```

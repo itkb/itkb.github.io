@@ -4,27 +4,31 @@ layout: page
 permalink: mysql/slave/
 ---
 
-= How to setup a mysql slave
+# How to setup a mysql slave
 See [http://www.percona.com/doc/percona-xtrabackup/2.1/howtos/setting_up_replication.html]
 
 = Start
 
-[source, mysql]
+```mysql
 START SLAVE;
+```
 
-= Stop
+# Stop
 
-[source, mysql]
+```mysql
 STOP SLAVE;
+```
 
-= Status
+# Status
 
-[source, mysql]
+```mysql
 SHOW SLAVE STATUS \G;
+```
 
-= Make slave jump current instruction
+# Make slave jump current instruction
 
-[source, mysql]
+```mysql
 STOP SLAVE;
 SET GLOBAL sql_slave_skip_counter = 1;
 START SLAVE;
+```
