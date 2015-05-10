@@ -6,7 +6,7 @@ permalink: linux/bash-shell/
 
 GNU Bash is one most used shell in Linux and is the default shell for many distributions like Fedora, Red Hat, CentOS.
 
-= Keystrokes
+## Keystrokes
 * *CTRL + A:* Bring the cursot at the begin of the current command line
 * *CTRL + B:* Brign the cursor at the end of the current command line
 * *CTRL + C:* Quit the current executed command or task
@@ -14,7 +14,7 @@ GNU Bash is one most used shell in Linux and is the default shell for many distr
 * *CTRL + R:* Reverse search for commands history
 * *CTRL + Z:* Stop the current executed command or task (to resume, use fg or bg)
 
-= Hisotry
+## Hisotry
 Every command you type in bash is saved in the bash history that is kept in the file `~/.bash_history`.
 
 To clean the history you can:

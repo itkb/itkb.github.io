@@ -4,13 +4,15 @@ layout: page
 permalink: linux/sshd/
 ---
 
-= Check config file
+# Check config file
 To be sure that that issued config file is correct, please run
 
-[source, bash]
+```bash
 /usr/bin/sshd -T
+```
 
-= Speed up login
+# Speed up login
 
-[source, bash]
+```bash
 GSSAPIAuthentication yes -> GSSAPIAuthentication no
+```

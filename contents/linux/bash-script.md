@@ -6,8 +6,9 @@ permalink: linux/bash-script/
 
 Bash could be used to create script to automatize jobs.
 
-= Script verification
+# Script verification
 To be sure that the script just written is correct, plese run:
 
-[source, bash]
+``` bash
 bash -n ./SCRIPT
+```

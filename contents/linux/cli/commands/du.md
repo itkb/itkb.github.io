@@ -8,10 +8,12 @@ Useful util to measure the size of folders, multiple files or multiple folders.
 
 Folder size
 
-[source, bash]
+```bash
 du -sh FOLDER
+```
 
 Folders/Files size
 
-[source, bash]
+```bash
 du -ch FILE1 FOLDER1 FILE2 ...
+```

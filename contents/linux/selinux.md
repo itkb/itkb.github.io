@@ -4,24 +4,28 @@ layout: page
 permalink: linux/selinux/
 ---
 
-= Status, start and stop
+# Status, start and stop
 Get selinux status
 
-[source, bash]
+```bash
 getenforce
+```
 
 Enable selinux
 
-[source, bash]
+```bash
 setenforce true
+```
 
 Disable selinux
 
-[source, bash]
+```bash
 setenforce false
+```
 
-= Reset permissions
+# Reset permissions
 Restore permissions of files in a folder
 
-[source, bash]
+```bash
 restorecon -Rv FOLDER
+```

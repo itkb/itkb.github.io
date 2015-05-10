@@ -8,10 +8,10 @@ The crontab is a utility for Job Scheduling.
 
 To see the current running crontab, use `crontab -l`, while to edit it, `crontab -e`.
 
-= Syntax
+# Syntax
 Every line in the crontab have to follow this schema:
 
-[source, bash]
+```bash
  # ┌───────────────────────── min (0 - 59)
  # │    ┌──────────────────── hour (0 - 23)
  # │    │    ┌─────────────── day of month (1 - 31)
@@ -20,8 +20,11 @@ Every line in the crontab have to follow this schema:
  # │    │    │    │    │
  # │    │    │    │    │
    *    *    *    *    *      USER    COMMAND
+```
 
 All the first 5 parameters can be used in different modes:
 
+```crontab
 * * means ALL (ie: * * * * * means every minute 24/7/365)
 * */N means every N (ie: */5 in the first column means every 5 minutes)
+```
